@@ -1,0 +1,326 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#nav{
+    width: 100%;
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    justify-content: space-between;
+    padding: 10px;
+}
+#nav img{
+    width: 60px;
+    height: 50px;
+}
+#nav-menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding-top: 10px;
+}
+#nav-menu li {
+    list-style: none;
+}
+#nav-menu a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+#Close{
+    display: none;
+}
+#dot{
+    display: none;
+}
+.hero{
+    background-image:url(../image/hero.jpg) ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    height: 80vh;
+    flex-direction: column;
+    justify-content: center;
+}
+.detial{
+    margin-left: 50px;
+    
+}
+.white,.normal{
+    display: inline-block;
+    padding-left: 7px;
+    font-size: 30px;
+}
+.white{
+    color: rgb(255, 251, 251);
+}
+.normal{
+    color: rgb(184, 184, 184);
+    font-weight: lighter;
+}
+.hero-btn{
+    margin-top: 10px;
+    width: 16%;
+    padding: 6px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    background-color: transparent;
+    border-radius: 20px;
+    border-color: blue;
+    color: white;
+    cursor: pointer;
+    margin-left: 50px;
+}
+.course-part{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:200px 0 0px 0;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    background: linear-gradient(135deg, rgb(176, 232, 233) 10%, rgb(86, 82, 212) 100%);
+
+}
+.heading{
+    color: rgb(160, 160, 160);
+    margin-left: 70px;
+}
+.white-2{
+    font-weight: 600;
+    display: inline-block;
+    padding-bottom: 12px;
+    margin-left: 50px;
+}
+.normal-2{
+    display:inline-block;
+    font-weight: lighter;
+}
+.courses-btn{
+    width: auto;
+    padding: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 20px;
+    border-color: blue;
+    background-color: transparent;
+    cursor: pointer;
+    margin-right: 50px;
+}
+.courses-btn a{
+    text-decoration: none;
+    color: white;
+}
+.course-name{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 200px ;
+    row-gap: 30px;
+}
+.box{
+    width: 320px;
+    height: 400px;
+    padding: 14px;
+}
+.box img{
+    width: 300px;
+    height: 280px;
+    border-radius: 20px;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+.outline h3{
+    color: blue;
+    font-size: 1.1rem;
+    text-transform: capitalize;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.detial{
+    font-size:1.1rem;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin-bottom: 4px;
+    text-align: justify;
+    
+}
+
+.im-side{
+    padding-top: 30px;
+    height:600px;
+    background-image: url(../image/download.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+.reason h1{
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 800;
+}
+.reason p{
+    padding-top: 17px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding-bottom: 10px;
+
+}
+.des p{
+    padding-top: 6px;
+    font-size: 1rem;  
+}
+.des li{
+    list-style: circle;
+    font-weight: 600;
+    margin-left: 15px;
+    font-size: 1rem;
+    text-transform: capitalize;
+    list-style: circle white;
+    line-height: 30px;
+}
+.btn-1{
+    width: 500px;
+    margin-top: 25px;
+    margin-left: 100px;
+    width: auto;
+    padding: 5px;
+    background-color: skyblue;
+    background: linear-gradient(89.2deg, rgb(117, 193, 240) 3.3%, rgb(119, 217, 211) 97.8%);
+    margin-right: 17px ;
+
+}
+.btn-1 a{
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+.teacher{
+    margin: 170px 0 0 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    background: linear-gradient(135deg, rgb(176, 232, 233) 10%, rgb(86, 82, 212) 100%);
+}
+.teach-poto{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+    background-color: rgba(208, 209, 211, 0.342);
+    padding: 20px;
+    
+   
+    
+}
+.photo{
+    margin-bottom: 60px;
+    height: 200px;
+    width: 220px;
+    padding: 10px;
+    
+    
+    
+}
+.photo img{
+    width: 220px;
+    height: 200px;
+    border-radius: 50%;
+    
+}
+.photo h2{
+    text-align: center;
+}
+.photo h2 a{
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+    font-weight: 500;
+
+}
+.teach-btn{
+    width: 13%;
+    padding: 6px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 20px;
+    border-color: blue;
+    background-color: transparent;
+    cursor: pointer;
+    margin-right: 50px;
+    width: auto;
+   
+}
+.teach-btn a{
+    text-decoration: none;
+    color: white;
+}
+
+footer{
+    margin-top: 150px;
+    
+}
+/* @media (max-width:1000px){
+    .im-side{
+        width: 350px;
+    }
+    .reason{
+        width: 350px;
+    }
+
+} */
+@media (max-width:500px){
+    #nav-menu{
+        z-index: 4;
+
+        display: flex;
+        align-items: start;
+        justify-content: start;
+        flex-direction: column;     
+        background-color: black;
+        padding-top: 120px;
+        width: 40vw;
+        height: 100vh;
+        position:absolute;
+        right: -300px;
+        top: 0;
+        transition: .5s;
+        display: none;
+      }
+      #nav-menu.active{
+        right: 0;
+        display: block;
+      }
+      #Close{
+        color: white;
+        position: absolute;
+        top: 80px;
+        display: block;
+      }
+      #dot{
+        display: block;
+        
+        color: white;
+      
+      }
+      .hero-btn{
+        font-size: 13px;   
+      }
+      
+ }
